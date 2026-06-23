@@ -4,5 +4,6 @@ Homebrew tap for **RoostDraw** — a native macOS editor for the Roost scratchpa
 
 ```sh
 brew tap ashrocket/roostdraw
+brew trust ashrocket/roostdraw   # Homebrew 6+ requires trusting third-party taps
 brew install --cask roostdraw
 ```
