@@ -8,7 +8,7 @@ cask "roostdraw" do
   desc "MacPaint-style editor for the Roost scratchpad"
   homepage "https://github.com/ashrocket/roost-draw"
 
-  depends_on macos: ">= :sequoia" # macOS 15
+  depends_on macos: :sequoia # macOS 15 or newer
 
   app "RoostDraw.app"
 
